@@ -6,7 +6,7 @@
                 #   B) The total net amount of "Profit/Losses" over the entire period
                 #   C) The average change in "Profit/Losses" between months over the entire period
                 #   D) The greatest increase in profits (date and amount) over the entire period
-                #   E) The greatest decrease in losses (date and amount) over the entire period'''
+                #   E) The greatest decrease in losses (date and amount) over the entire period
 #-------------------------------------------------------------------------------------------------
 
 
