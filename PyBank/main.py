@@ -11,7 +11,7 @@
 
 
 
-#Step 1: Import the necessary functions
+#Step 1: Import the necessary packages
 import csv 
 
 #Step 2: Declare the necessary variables
@@ -44,7 +44,7 @@ with open("budget_data.csv", "r") as openCSVFile:
         totalNetAmount = totalNetAmount + int(eachRow[1]) #Cumulative sum of the amount from the 1st index of the row
         amountList.append(int(eachRow[1])) #Storing the amount of each row in list
 
-        if csvReader.line_num == 2: #this will get the line number
+        if csvReader.line_num == 2: #this will get the line number 2 (after the header)
             #Assign the first row as default for all greatest Inc/Dec.
             greatestIncMth = eachRow[0]
             greatestDecMth = eachRow[0]
